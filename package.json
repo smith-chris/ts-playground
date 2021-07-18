@@ -1,0 +1,14 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "smith-chris <kowalski.k@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd  --respawn --transpileOnly index.ts"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^4.3.5"
+  }
+}
